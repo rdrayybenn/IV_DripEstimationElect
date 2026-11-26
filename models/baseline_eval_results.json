@@ -1,0 +1,9 @@
+{
+    "model_name": "Direct Ratio Baseline (W / R_infusion)",
+    "mae_seconds": 9826.92,
+    "mae_minutes": 163.78,
+    "rmse_seconds": 13412.29,
+    "rmse_minutes": 223.54,
+    "r2_score": -1.6029,
+    "decision": "Rejected \u2014 instantaneous weight-change ratios produce erratic TTE jumps during sensor noise."
+}
