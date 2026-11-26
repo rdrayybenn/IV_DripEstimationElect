@@ -11,7 +11,7 @@ extern "C" {
 
 #define GB_N_FEATURES 4
 #define GB_N_ESTIMATORS 100
-#define GB_LEARNING_RATE (0.05)
+#define GB_LEARNING_RATE (0.050000000000000003)
 #define GB_INITIAL_VALUE (21600.334283143373)
 
 static const int gb_tree_0_left[7] = {1, 2, -1, -1, 5, -1, -1};
@@ -720,7 +720,7 @@ static double gb_tree_36_predict(const double *x)
 static const int gb_tree_37_left[7] = {1, 2, -1, -1, 5, -1, -1};
 static const int gb_tree_37_right[7] = {4, 3, -1, -1, 6, -1, -1};
 static const int gb_tree_37_feature[7] = {0, 0, -2, -2, 1, -2, -2};
-static const double gb_tree_37_threshold[7] = {27152.5, 9195.5, -2, -2, 103.985, -2, -2};
+static const double gb_tree_37_threshold[7] = {27152.5, 9195.5, -2, -2, 103.98500061035156, -2, -2};
 static const double gb_tree_37_value[7] = {-1.7861041047160045e-11, 1382.4990766400108, 3017.6317367575198, 545.02088395121768, -2339.1415543795461, -4614.4034876189271, -1869.2384566233852};
 
 static double gb_tree_37_predict(const double *x)
@@ -1765,7 +1765,7 @@ static double gb_tree_91_predict(const double *x)
 static const int gb_tree_92_left[7] = {1, 2, -1, -1, 5, -1, -1};
 static const int gb_tree_92_right[7] = {4, 3, -1, -1, 6, -1, -1};
 static const int gb_tree_92_feature[7] = {0, 0, -2, -2, 1, -2, -2};
-static const double gb_tree_92_threshold[7] = {15610, 671.5, -2, -2, 97.8, -2, -2};
+static const double gb_tree_92_threshold[7] = {15610, 671.5, -2, -2, 97.799999237060547, -2, -2};
 static const double gb_tree_92_value[7] = {2.8217796026212266e-12, 201.09715849510332, 843.62267159759529, 172.11314055424114, -113.78269423363281, -486.51090077021638, -75.887936720021472};
 
 static double gb_tree_92_predict(const double *x)
@@ -1822,7 +1822,7 @@ static double gb_tree_94_predict(const double *x)
 static const int gb_tree_95_left[7] = {1, 2, -1, -1, 5, -1, -1};
 static const int gb_tree_95_right[7] = {4, 3, -1, -1, 6, -1, -1};
 static const int gb_tree_95_feature[7] = {1, 0, -2, -2, 0, -2, -2};
-static const double gb_tree_95_threshold[7] = {417.69, 42441, -2, -2, 1700.5, -2, -2};
+static const double gb_tree_95_threshold[7] = {417.69000244140625, 42441, -2, -2, 1700.5, -2, -2};
 static const double gb_tree_95_value[7] = {2.9319542195014129e-12, -177.73749565222963, -149.70905907970368, -724.2920088164434, 99.84854978847325, 517.27391376869195, 72.502865225259143};
 
 static double gb_tree_95_predict(const double *x)
